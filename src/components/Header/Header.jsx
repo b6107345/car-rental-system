@@ -19,10 +19,6 @@ const navLinks = [
   },
 
   {
-    path: "/blogs",
-    display: "Blog",
-  },
-  {
     path: "/contact",
     display: "Contact",
   },
@@ -86,8 +82,8 @@ const Header = () => {
                   <i class="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Bangladesh</h4>
-                  <h6>Sylhet City, Bangladesh</h6>
+                  <h4>Bangkok</h4>
+                  <h6>Bangkok City, Bangkok</h6>
                 </div>
               </div>
             </Col>
