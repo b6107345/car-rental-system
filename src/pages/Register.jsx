@@ -18,7 +18,7 @@ const Register = () => {
       .then(function (response) {
         if (response.status === 201) {
           Swal.fire(
-            "บันทึกข้อมูลสำเร็จ!",
+            "สมัครสมาชิกสำเร็จ!",
             "You clicked the button!",
             "success"
           );
