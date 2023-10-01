@@ -6,6 +6,7 @@ import CarListing from "../pages/CarListing";
 import CarDetails from "../pages/CarDetails";
 import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
+import Register from "../pages/Register"
 
 const Routers = () => {
   return (
@@ -16,6 +17,7 @@ const Routers = () => {
       <Route path="/cars" element={<CarListing />} />
       <Route path="/cars/:slug" element={<CarDetails />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/register" element={<Register /> }/> 
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
